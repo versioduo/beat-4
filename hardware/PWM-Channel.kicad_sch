@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-08-29")
+		(date "2026-08-30")
 		(rev "2026-08-29")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
@@ -1642,6 +1642,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 146.05 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 146.05 88.9 90)
 			(hide yes)
@@ -1802,6 +1813,17 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 133.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 133.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1993,6 +2015,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 130.81 96.52 0)
 			(hide yes)
@@ -2056,7 +2089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72972ae1-7747-4f0d-a299-e8345339dc65")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR603"
 			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -2117,19 +2150,19 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/3a663e60-ff3b-47c0-b766-b5b7b91ce1df"
-					(reference "#PWR0703")
+					(reference "#PWR703")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/3e709b32-9d49-43a6-bfff-d8827a85b059"
-					(reference "#PWR0603")
+					(reference "#PWR603")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/55a19c5f-3545-478b-8760-70a8aed8d34d"
-					(reference "#PWR0903")
+					(reference "#PWR903")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/860a132b-04f6-4c65-888e-9642b3092624"
-					(reference "#PWR0803")
+					(reference "#PWR803")
 					(unit 1)
 				)
 			)
@@ -2256,6 +2289,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 152.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 152.4 125.73 0)
 			(hide yes)
@@ -2322,7 +2366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e78823d7-d202-449e-b2a4-25cb6fe676b2")
-		(property "Reference" "#PWR0601"
+		(property "Reference" "#PWR601"
 			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2383,19 +2427,19 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/3a663e60-ff3b-47c0-b766-b5b7b91ce1df"
-					(reference "#PWR0701")
+					(reference "#PWR701")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/3e709b32-9d49-43a6-bfff-d8827a85b059"
-					(reference "#PWR0601")
+					(reference "#PWR601")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/55a19c5f-3545-478b-8760-70a8aed8d34d"
-					(reference "#PWR0901")
+					(reference "#PWR901")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/860a132b-04f6-4c65-888e-9642b3092624"
-					(reference "#PWR0801")
+					(reference "#PWR801")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f99c76f0-9274-49c3-a364-85df246f1c6a")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR602"
 			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2473,19 +2517,19 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/3a663e60-ff3b-47c0-b766-b5b7b91ce1df"
-					(reference "#PWR0702")
+					(reference "#PWR702")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/3e709b32-9d49-43a6-bfff-d8827a85b059"
-					(reference "#PWR0602")
+					(reference "#PWR602")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/55a19c5f-3545-478b-8760-70a8aed8d34d"
-					(reference "#PWR0902")
+					(reference "#PWR902")
 					(unit 1)
 				)
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/860a132b-04f6-4c65-888e-9642b3092624"
-					(reference "#PWR0802")
+					(reference "#PWR802")
 					(unit 1)
 				)
 			)

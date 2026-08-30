@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-08-29")
+		(date "2026-08-30")
 		(rev "2026-08-29")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
@@ -2102,7 +2102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f61fc49-4b3c-47aa-ae6d-bd2672583d5c")
-		(property "Reference" "#PWR01003"
+		(property "Reference" "#PWR1003"
 			(at 187.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2163,7 +2163,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR01003")
+					(reference "#PWR1003")
 					(unit 1)
 				)
 			)
@@ -2288,6 +2288,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 156.21 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 156.21 107.95 90)
 			(hide yes)
@@ -2336,7 +2347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59de0765-f7da-444e-b4e0-ed2ee7a891c8")
-		(property "Reference" "#PWR01001"
+		(property "Reference" "#PWR1001"
 			(at 149.86 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2397,7 +2408,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR01001")
+					(reference "#PWR1001")
 					(unit 1)
 				)
 			)
@@ -2515,6 +2526,17 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 140.97 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,6 +2704,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 167.64 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 167.64 113.03 90)
 			(hide yes)
@@ -2832,6 +2865,17 @@
 		)
 		(property "Rating" "15Mbps"
 			(at 187.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 187.96 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,6 +3052,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 193.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 193.04 95.25 0)
 			(hide yes)
@@ -3167,6 +3222,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 116.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 116.84 107.95 0)
 			(hide yes)
@@ -3224,7 +3290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9caf35a-0e4b-4d90-885e-46c9c749e0c2")
-		(property "Reference" "#PWR01002"
+		(property "Reference" "#PWR1002"
 			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3285,7 +3351,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR01002")
+					(reference "#PWR1002")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd2fa09d-e317-4510-a889-31de0e16c925")
-		(property "Reference" "#PWR01004"
+		(property "Reference" "#PWR1004"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3363,7 +3429,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR01004")
+					(reference "#PWR1004")
 					(unit 1)
 				)
 			)

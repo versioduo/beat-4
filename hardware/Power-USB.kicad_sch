@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-08-29")
+		(date "2026-08-30")
 		(rev "2026-08-29")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
@@ -6131,7 +6131,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "06b1e09b-e5d9-484d-ad29-0ce184686cf2")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR209"
 			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6192,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0209")
+					(reference "#PWR209")
 					(unit 1)
 				)
 			)
@@ -6320,6 +6320,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 134.62 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 134.62 67.31 0)
 			(hide yes)
@@ -6368,7 +6379,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "1a3e7cd4-3fc9-42e1-a228-f82b4430630a")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR217"
 			(at 162.56 146.558 0)
 			(hide yes)
 			(show_name no)
@@ -6429,7 +6440,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0217")
+					(reference "#PWR217")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a216a5a-78f8-4cc0-b7f7-6a94d2247f7c")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR214"
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6507,7 +6518,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0214")
+					(reference "#PWR214")
 					(unit 1)
 				)
 			)
@@ -6524,7 +6535,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "2bbc1017-661a-4356-b304-c6fed65b3d5b")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR204"
 			(at 69.85 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6595,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0204")
+					(reference "#PWR204")
 					(unit 1)
 				)
 			)
@@ -6715,6 +6726,17 @@
 		)
 		(property "Polarity" "N"
 			(at 121.92 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 139.7 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,6 +6907,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 237.49 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 237.49 127 90)
 			(hide yes)
@@ -7044,6 +7077,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 109.22 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 109.22 67.31 0)
 			(hide yes)
@@ -7194,6 +7238,17 @@
 			(at 251.46 113.03 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 237.49 113.03 90)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7360,6 +7415,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 127 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 127 34.29 0)
 			(hide yes)
@@ -7408,7 +7474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "467f3d46-6560-4922-9898-f7e7b1b79b44")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR210"
 			(at 110.49 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7469,7 +7535,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0210")
+					(reference "#PWR210")
 					(unit 1)
 				)
 			)
@@ -7595,6 +7661,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 237.49 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 237.49 102.87 90)
 			(hide yes)
@@ -7643,7 +7720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ac984d9-dffc-45e8-9ee5-7355fa418fb5")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR213"
 			(at 127 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7704,7 +7781,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0213")
+					(reference "#PWR213")
 					(unit 1)
 				)
 			)
@@ -7722,7 +7799,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4f039994-bf42-47e9-8075-5c4c736341de")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR223"
 			(at 226.568 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7783,7 +7860,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0223")
+					(reference "#PWR223")
 					(unit 1)
 				)
 			)
@@ -7911,6 +7988,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 110.49 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 110.49 34.29 90)
 			(hide yes)
@@ -7959,7 +8047,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "655b5b0d-1ae5-4438-9f89-e20b0ce05e7c")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR218"
 			(at 165.1 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8020,7 +8108,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0218")
+					(reference "#PWR218")
 					(unit 1)
 				)
 			)
@@ -8037,7 +8125,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "7184a9fb-b9e6-4e05-9fad-74aefdacccca")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR201"
 			(at 52.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8185,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0201")
+					(reference "#PWR201")
 					(unit 1)
 				)
 			)
@@ -8114,7 +8202,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "728e5bdc-c200-4a46-a053-6f31a94b6288")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR222"
 			(at 168.91 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8175,7 +8263,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0222")
+					(reference "#PWR222")
 					(unit 1)
 				)
 			)
@@ -8192,7 +8280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "798b09c1-9feb-490d-abf0-c7a27eee9200")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR224"
 			(at 245.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8253,7 +8341,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0224")
+					(reference "#PWR224")
 					(unit 1)
 				)
 			)
@@ -8271,7 +8359,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "7c1a4875-e903-4671-922c-a5415f8601e6")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR225"
 			(at 227.838 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8332,7 +8420,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0225")
+					(reference "#PWR225")
 					(unit 1)
 				)
 			)
@@ -8349,7 +8437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "864e1d28-797a-4f53-8f38-0d4f6dd19627")
-		(property "Reference" "#FLG0202"
+		(property "Reference" "#FLG202"
 			(at 63.5 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -8409,7 +8497,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#FLG0202")
+					(reference "#FLG202")
 					(unit 1)
 				)
 			)
@@ -8426,7 +8514,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "873ee6d0-90f8-43cc-a57d-9afb6883e395")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR215"
 			(at 149.86 102.362 0)
 			(hide yes)
 			(show_name no)
@@ -8487,7 +8575,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0215")
+					(reference "#PWR215")
 					(unit 1)
 				)
 			)
@@ -8504,7 +8592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87adc931-fd15-425e-8e9a-dd523ac1a643")
-		(property "Reference" "#FLG0201"
+		(property "Reference" "#FLG201"
 			(at 63.5 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -8564,7 +8652,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#FLG0201")
+					(reference "#FLG201")
 					(unit 1)
 				)
 			)
@@ -8682,6 +8770,17 @@
 			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 149.86 124.46 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -8878,7 +8977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949d046a-21fc-45f0-bfe0-392f982e2297")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR216"
 			(at 154.94 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8939,7 +9038,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0216")
+					(reference "#PWR216")
 					(unit 1)
 				)
 			)
@@ -8956,7 +9055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98b285fd-1239-4fd8-b241-6c248bfb48b9")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR212"
 			(at 109.22 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9017,7 +9116,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0212")
+					(reference "#PWR212")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9133,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "98f96d22-591e-4d79-bf1b-191026c87ccb")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR211"
 			(at 127.762 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9095,7 +9194,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0211")
+					(reference "#PWR211")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "996b7bde-8edc-4e32-8662-49d9c4d9af31")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR229"
 			(at 246.38 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9173,7 +9272,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0229")
+					(reference "#PWR229")
 					(unit 1)
 				)
 			)
@@ -9190,7 +9289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e66007e-a2c1-4625-849b-176a00b89eae")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR208"
 			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9251,7 +9350,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0208")
+					(reference "#PWR208")
 					(unit 1)
 				)
 			)
@@ -9369,6 +9468,17 @@
 			(at 41.91 134.62 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 55.88 134.62 90)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -9528,6 +9638,17 @@
 			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 123.19 67.31 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -9705,6 +9826,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 158.75 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 158.75 33.02 90)
 			(hide yes)
@@ -9866,6 +9998,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 237.49 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 237.49 138.43 90)
 			(hide yes)
@@ -9915,7 +10058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1d570a-35ed-4708-960a-ce881c029905")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR202"
 			(at 59.69 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9976,7 +10119,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0202")
+					(reference "#PWR202")
 					(unit 1)
 				)
 			)
@@ -9994,7 +10137,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "ac404b2d-6f2f-4b52-a88f-15fed54b5fb2")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR226"
 			(at 227.838 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10055,7 +10198,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0226")
+					(reference "#PWR226")
 					(unit 1)
 				)
 			)
@@ -10072,7 +10215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac9c589c-a9a1-4675-a655-a10afe22132b")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR220"
 			(at 179.07 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10133,7 +10276,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0220")
+					(reference "#PWR220")
 					(unit 1)
 				)
 			)
@@ -10150,7 +10293,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "ad548d70-9e26-4372-99c3-29702ccf4355")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR203"
 			(at 50.8 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10211,7 +10354,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0203")
+					(reference "#PWR203")
 					(unit 1)
 				)
 			)
@@ -10228,7 +10371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b51698ac-0510-48ac-9e8d-c93d2816764f")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR219"
 			(at 166.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10289,7 +10432,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0219")
+					(reference "#PWR219")
 					(unit 1)
 				)
 			)
@@ -10410,6 +10553,17 @@
 			(at 154.94 82.55 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 154.94 67.31 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -10584,6 +10738,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 64.77 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 64.77 134.62 0)
 			(hide yes)
@@ -10742,6 +10907,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 59.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 59.69 80.01 0)
 			(hide yes)
@@ -10817,7 +10993,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "c04ca539-5488-4ab2-a840-12c64550625a")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR206"
 			(at 59.69 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10878,7 +11054,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0206")
+					(reference "#PWR206")
 					(unit 1)
 				)
 			)
@@ -10896,7 +11072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0f74365-a7b8-40d2-963f-0cf7ab4cbc9f")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR207"
 			(at 109.22 76.962 0)
 			(hide yes)
 			(show_name no)
@@ -10957,7 +11133,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0207")
+					(reference "#PWR207")
 					(unit 1)
 				)
 			)
@@ -10974,7 +11150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd3964ac-e9aa-476f-8c49-72a2aa437f6a")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR228"
 			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
@@ -11035,7 +11211,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0228")
+					(reference "#PWR228")
 					(unit 1)
 				)
 			)
@@ -11053,7 +11229,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "d2cde56b-bd9e-448a-8415-7bb4cfbe0581")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR227"
 			(at 227.838 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11114,7 +11290,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0227")
+					(reference "#PWR227")
 					(unit 1)
 				)
 			)
@@ -11131,7 +11307,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "da468495-11f5-4f33-8f86-97d8220e30cc")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR205"
 			(at 55.118 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11192,7 +11368,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0205")
+					(reference "#PWR205")
 					(unit 1)
 				)
 			)
@@ -11313,6 +11489,17 @@
 			(at 166.37 49.53 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 166.37 34.29 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -11477,6 +11664,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 237.49 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 237.49 92.71 90)
 			(hide yes)
@@ -11580,6 +11778,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 226.06 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 226.06 64.77 0)
 			(hide yes)
@@ -11649,7 +11858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "feb24e9d-3a39-47bc-8574-b7b9537fd780")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR221"
 			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11710,7 +11919,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/490d8482-5130-4345-a6a0-558624401b31"
-					(reference "#PWR0221")
+					(reference "#PWR221")
 					(unit 1)
 				)
 			)

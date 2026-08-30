@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-08-29")
+		(date "2026-08-30")
 		(rev "2026-08-29")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
@@ -2706,7 +2706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03facdcc-acf7-4329-a0a1-1223e8879803")
-		(property "Reference" "#PWR0516"
+		(property "Reference" "#PWR516"
 			(at 208.28 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2767,7 +2767,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0516")
+					(reference "#PWR516")
 					(unit 1)
 				)
 			)
@@ -2885,6 +2885,17 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 133.35 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 133.35 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,6 +3061,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 105.41 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 105.41 137.16 90)
 			(hide yes)
@@ -3098,7 +3120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10d3cdac-c7b3-4f47-b685-b35ac27195b3")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR509"
 			(at 144.78 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3159,7 +3181,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0509")
+					(reference "#PWR509")
 					(unit 1)
 				)
 			)
@@ -3284,6 +3306,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 105.41 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 105.41 147.32 90)
 			(hide yes)
@@ -3332,7 +3365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27da3426-286d-4e08-a274-566ff1548749")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR504"
 			(at 120.65 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3393,7 +3426,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0504")
+					(reference "#PWR504")
 					(unit 1)
 				)
 			)
@@ -3518,6 +3551,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 198.12 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 198.12 60.96 90)
 			(hide yes)
@@ -3566,7 +3610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ef2dae8-0f60-4216-a6a7-83d820567af7")
-		(property "Reference" "#PWR0512"
+		(property "Reference" "#PWR512"
 			(at 167.64 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3627,7 +3671,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0512")
+					(reference "#PWR512")
 					(unit 1)
 				)
 			)
@@ -3644,7 +3688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37f2f530-8fb5-44d7-bcf6-b7db9f8ca4d6")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR501"
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -3705,7 +3749,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0501")
+					(reference "#PWR501")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3766,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "39cc6985-6349-4fe3-95e0-9142919ae52d")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR503"
 			(at 105.41 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -3784,7 +3828,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0503")
+					(reference "#PWR503")
 					(unit 1)
 				)
 			)
@@ -3910,6 +3954,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 120.65 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 120.65 149.86 0)
 			(hide yes)
@@ -3958,7 +4013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48d27f21-87d5-461d-b5c9-3cc4006b3fca")
-		(property "Reference" "#PWR0517"
+		(property "Reference" "#PWR517"
 			(at 208.28 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4019,7 +4074,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0517")
+					(reference "#PWR517")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4be24b04-92d9-480f-9a4a-26aef9b95754")
-		(property "Reference" "#PWR0515"
+		(property "Reference" "#PWR515"
 			(at 182.88 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4096,7 +4151,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0515")
+					(reference "#PWR515")
 					(unit 1)
 				)
 			)
@@ -4213,6 +4268,17 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 173.99 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4379,6 +4445,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 173.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 173.99 58.42 0)
 			(hide yes)
@@ -4428,7 +4505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67e727f1-627c-4f46-9322-975b22402eb2")
-		(property "Reference" "#PWR0513"
+		(property "Reference" "#PWR513"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4489,7 +4566,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0513")
+					(reference "#PWR513")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6845e73c-8657-4b8c-88cc-5ccf399609c8")
-		(property "Reference" "#PWR0510"
+		(property "Reference" "#PWR510"
 			(at 156.21 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4567,7 +4644,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0510")
+					(reference "#PWR510")
 					(unit 1)
 				)
 			)
@@ -4694,6 +4771,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 167.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 167.64 134.62 0)
 			(hide yes)
@@ -4742,7 +4830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d36f39c-ee8b-49e8-93d3-298903ce6ff1")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR508"
 			(at 133.35 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4803,7 +4891,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0508")
+					(reference "#PWR508")
 					(unit 1)
 				)
 			)
@@ -4919,6 +5007,17 @@
 		)
 		(property "Id" "PowerSwitch:${SYMBOL_NAME}"
 			(at 139.7 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,6 +5222,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 97.79 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 97.79 139.7 0)
 			(hide yes)
@@ -5271,6 +5381,17 @@
 		)
 		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 154.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 154.94 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,6 +5558,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 182.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 182.88 115.57 0)
 			(hide yes)
@@ -5485,7 +5617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cd9c4ca-5e36-4837-819b-2c01c0df3a99")
-		(property "Reference" "#PWR0506"
+		(property "Reference" "#PWR506"
 			(at 129.54 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5546,7 +5678,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0506")
+					(reference "#PWR506")
 					(unit 1)
 				)
 			)
@@ -5673,6 +5805,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 144.78 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 144.78 110.49 0)
 			(hide yes)
@@ -5721,7 +5864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6cf3ad6-76f4-4052-8c52-fae865016e59")
-		(property "Reference" "#PWR0514"
+		(property "Reference" "#PWR514"
 			(at 173.99 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +5925,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0514")
+					(reference "#PWR514")
 					(unit 1)
 				)
 			)
@@ -5908,6 +6051,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 182.88 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 182.88 120.65 90)
 			(hide yes)
@@ -5957,7 +6111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c15e1ded-d3f9-488e-b90c-3862d2ea9539")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR507"
 			(at 133.35 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6018,7 +6172,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0507")
+					(reference "#PWR507")
 					(unit 1)
 				)
 			)
@@ -6144,6 +6298,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 129.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 129.54 149.86 0)
 			(hide yes)
@@ -6192,7 +6357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c56ca9c8-1ebf-4b45-8209-2b0ddf0b6770")
-		(property "Reference" "#PWR0511"
+		(property "Reference" "#PWR511"
 			(at 154.94 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6253,7 +6418,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0511")
+					(reference "#PWR511")
 					(unit 1)
 				)
 			)
@@ -6380,6 +6545,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 97.79 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 97.79 149.86 0)
 			(hide yes)
@@ -6428,7 +6604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3bfa4f0-0813-47a2-813d-877888847e25")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR502"
 			(at 97.79 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6489,7 +6665,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0502")
+					(reference "#PWR502")
 					(unit 1)
 				)
 			)
@@ -6607,6 +6783,17 @@
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
 			(at 208.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 208.28 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6774,6 +6961,17 @@
 				)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Pin" ""
 			(at 208.28 63.5 0)
 			(hide yes)
@@ -6822,7 +7020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f557b9eb-1bd9-454d-875c-b79864a62e42")
-		(property "Reference" "#PWR0505"
+		(property "Reference" "#PWR505"
 			(at 133.35 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6882,7 +7080,7 @@
 		(instances
 			(project "beat-4"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/a3f8c764-16c0-4eab-81c9-369dce0a6b86/d86f62c7-7b9f-44a5-ae55-e25907f28987"
-					(reference "#PWR0505")
+					(reference "#PWR505")
 					(unit 1)
 				)
 			)
