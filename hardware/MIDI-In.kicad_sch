@@ -1874,8 +1874,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 90.17 69.85)
+		(end 245.11 147.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bfb39283-7038-4ef6-9608-d3149f1f8fc2")
+	)
 	(junction
-		(at 187.96 92.71)
+		(at 204.47 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dc3960e-874c-4f0e-8279-9d284446cced")
@@ -1912,7 +1924,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 107.95) (xy 167.64 107.95)
+			(xy 157.48 107.95) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 118.11) (xy 177.8 118.11)
+			(xy 167.64 118.11) (xy 194.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 107.95) (xy 153.67 107.95)
+			(xy 129.54 107.95) (xy 152.4 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 177.8 107.95)
+			(xy 167.64 107.95) (xy 194.31 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1960,19 +1972,9 @@
 		)
 		(uuid "59185c24-0112-4999-b05a-5fb6975d0f19")
 	)
-	(polyline
-		(pts
-			(xy 208.28 78.74) (xy 99.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "68509275-22da-426c-8d72-c379ed62feca")
-	)
 	(wire
 		(pts
-			(xy 198.12 113.03) (xy 208.28 113.03)
+			(xy 214.63 113.03) (xy 245.11 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 92.71) (xy 187.96 102.87)
+			(xy 204.47 92.71) (xy 204.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2010,45 +2012,15 @@
 		)
 		(uuid "a55ac6ce-16d5-456e-a04f-b1efa67d9935")
 	)
-	(polyline
-		(pts
-			(xy 208.28 132.08) (xy 208.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d16fe093-ed1a-44e2-a443-c519a60004ec")
-	)
 	(wire
 		(pts
-			(xy 187.96 92.71) (xy 193.04 92.71)
+			(xy 204.47 92.71) (xy 209.55 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee5cccd0-dc44-4658-b64a-4cb1e478b426")
-	)
-	(polyline
-		(pts
-			(xy 99.06 132.08) (xy 208.28 132.08)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "ef832f42-5440-481b-b76f-03b2072a5c94")
-	)
-	(polyline
-		(pts
-			(xy 99.06 78.74) (xy 99.06 132.08)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "f32126ef-420b-40a5-aac7-a58b32ec53ef")
 	)
 	(label "Ring"
 		(at 132.08 107.95 0)
@@ -2070,6 +2042,16 @@
 		)
 		(uuid "dcd0599a-b861-4a95-8b29-15b704c6f02d")
 	)
+	(label "LED"
+		(at 173.99 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0f1ebd0-c124-4a36-8131-2b495cb2cfc8")
+	)
 	(label "Sleeve"
 		(at 132.08 97.79 0)
 		(effects
@@ -2082,7 +2064,7 @@
 	)
 	(hierarchical_label "MIDI-Data"
 		(shape output)
-		(at 208.28 113.03 0)
+		(at 245.11 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2093,7 +2075,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 187.96 123.19 0)
+		(at 204.47 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2103,7 +2085,7 @@
 		(dnp no)
 		(uuid "1f61fc49-4b3c-47aa-ae6d-bd2672583d5c")
 		(property "Reference" "#PWR1003"
-			(at 187.96 129.54 0)
+			(at 204.47 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2114,7 +2096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 128.27 0)
+			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,7 +2107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 123.19 0)
+			(at 204.47 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,7 +2118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 123.19 0)
+			(at 204.47 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,7 +2129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 123.19 0)
+			(at 204.47 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2171,7 +2153,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:1608_220R")
-		(at 156.21 107.95 90)
+		(at 154.94 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2181,7 +2163,7 @@
 		(dnp no)
 		(uuid "5032212f-d852-40b1-8b09-65abd10e79fd")
 		(property "Reference" "R1001"
-			(at 156.21 102.235 90)
+			(at 154.94 102.235 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2191,7 +2173,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 156.21 104.775 90)
+			(at 154.94 104.775 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2201,7 +2183,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_1608"
-			(at 171.958 107.95 0)
+			(at 170.688 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2212,7 +2194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 107.95 0)
+			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,7 +2205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 107.95 0)
+			(at 167.64 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2234,7 +2216,7 @@
 			)
 		)
 		(property "Mouser" "667-ERJ-PA3F2200V"
-			(at 179.07 107.95 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2245,7 +2227,7 @@
 			)
 		)
 		(property "Product" "ERJ-PA3F2200V"
-			(at 173.99 107.95 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2256,28 +2238,6 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 171.45 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "333mW"
-			(at 176.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Id" "Resistor:${SYMBOL_NAME}"
 			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2288,8 +2248,19 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 156.21 107.95 90)
+		(property "Rating" "333mW"
+			(at 175.26 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +2271,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 156.21 107.95 90)
+			(at 154.94 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2282,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 156.21 107.95 90)
+			(at 154.94 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,17 +2506,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 140.97 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 140.97 97.79 90)
 			(hide yes)
@@ -2595,7 +2555,7 @@
 		(dnp no)
 		(uuid "aaeda754-d611-45ae-83e4-da00f71803e8")
 		(property "Reference" "D1001"
-			(at 163.83 102.5524 90)
+			(at 170.18 111.6964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2606,7 +2566,7 @@
 			)
 		)
 		(property "Value" "PMEG2010EPK"
-			(at 163.83 105.0924 90)
+			(at 170.18 114.2364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2704,17 +2664,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 167.64 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 167.64 113.03 90)
 			(hide yes)
@@ -2754,7 +2703,7 @@
 	)
 	(symbol
 		(lib_id "V2_Isolator:TLP2361")
-		(at 187.96 113.03 0)
+		(at 204.47 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2764,7 +2713,7 @@
 		(dnp no)
 		(uuid "b612171c-51c9-4d61-ae59-88034e9c0c4b")
 		(property "Reference" "U1001"
-			(at 199.39 117.7036 0)
+			(at 215.9 117.7036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2774,7 +2723,7 @@
 			)
 		)
 		(property "Value" "TLP2361"
-			(at 201.295 120.2436 0)
+			(at 217.805 120.2436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2784,7 +2733,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_SO:SO-5-6_4.55x3.7mm_P1.27mm"
-			(at 170.18 125.73 0)
+			(at 186.69 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,7 +2746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.2168 112.395 0)
+			(at 201.7268 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +2758,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 113.03 0)
+			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2769,7 @@
 			)
 		)
 		(property "Mouser" "757-TLP2361TPRE"
-			(at 187.96 148.59 0)
+			(at 204.47 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2831,7 +2780,7 @@
 			)
 		)
 		(property "Product" "TLP2361(TPR,E"
-			(at 187.96 146.05 0)
+			(at 204.47 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2842,7 +2791,7 @@
 			)
 		)
 		(property "Manufacturer" "Toshiba"
-			(at 187.96 143.51 0)
+			(at 204.47 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,7 +2802,7 @@
 			)
 		)
 		(property "Id" "Optocoupler:${SYMBOL_NAME}"
-			(at 187.96 138.43 0)
+			(at 204.47 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,18 +2813,7 @@
 			)
 		)
 		(property "Rating" "15Mbps"
-			(at 187.96 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 187.96 113.03 0)
+			(at 204.47 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,7 +2824,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 187.96 113.03 0)
+			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2897,7 +2835,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 187.96 113.03 0)
+			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2933,7 +2871,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:1608_0u1")
-		(at 193.04 95.25 0)
+		(at 209.55 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2943,7 +2881,7 @@
 		(dnp no)
 		(uuid "be905a13-54ce-4015-b726-7b49a1ec6f7e")
 		(property "Reference" "C1002"
-			(at 196.85 93.3512 0)
+			(at 213.36 93.3512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2954,7 +2892,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 196.85 95.8912 0)
+			(at 213.36 95.8912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2965,7 +2903,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_1608"
-			(at 193.04 112.268 0)
+			(at 209.55 112.268 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,7 +2914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 95.25 0)
+			(at 209.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2987,7 +2925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 107.95 0)
+			(at 209.55 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,7 +2936,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 193.04 115.57 0)
+			(at 209.55 115.57 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3009,7 +2947,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 193.04 110.49 0)
+			(at 209.55 110.49 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3020,7 +2958,7 @@
 			)
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
-			(at 193.04 113.03 0)
+			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -3031,7 +2969,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 193.04 118.11 0)
+			(at 209.55 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3042,18 +2980,7 @@
 			)
 		)
 		(property "Id" "Capacitor:${SYMBOL_NAME}"
-			(at 193.04 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 193.04 95.25 0)
+			(at 209.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +2991,7 @@
 			)
 		)
 		(property "Sim.Pin" ""
-			(at 193.04 95.25 0)
+			(at 209.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3075,7 +3002,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 193.04 95.25 0)
+			(at 209.55 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,17 +3149,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 116.84 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Sim.Pin" ""
 			(at 116.84 107.95 0)
 			(hide yes)
@@ -3281,7 +3197,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+3V3")
-		(at 187.96 92.71 0)
+		(at 204.47 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3291,7 +3207,7 @@
 		(dnp no)
 		(uuid "f9caf35a-0e4b-4d90-885e-46c9c749e0c2")
 		(property "Reference" "#PWR1002"
-			(at 187.96 96.52 0)
+			(at 204.47 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3302,7 +3218,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 187.96 87.63 0)
+			(at 204.47 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3313,7 +3229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 92.71 0)
+			(at 204.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3324,7 +3240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 92.71 0)
+			(at 204.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3335,7 +3251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 92.71 0)
+			(at 204.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3359,7 +3275,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 193.04 97.79 0)
+		(at 209.55 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3369,7 +3285,7 @@
 		(dnp no)
 		(uuid "fd2fa09d-e317-4510-a889-31de0e16c925")
 		(property "Reference" "#PWR1004"
-			(at 193.04 104.14 0)
+			(at 209.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,7 +3296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 102.87 0)
+			(at 209.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +3307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 97.79 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3402,7 +3318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 97.79 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,7 +3329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 97.79 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
