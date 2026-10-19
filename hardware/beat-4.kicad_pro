@@ -272,7 +272,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2026-08-29"
+      "sch_revision": "2026-10-03"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -616,8 +616,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "USB",
@@ -645,7 +645,7 @@
       },
       {
         "netclass": "Debug",
-        "pattern": "/SWCLK|/SWDIO|/RESET"
+        "pattern": ".*/SWCLK|.*/SWDIO|.*/RESET"
       },
       {
         "netclass": "Crystal",

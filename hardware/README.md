@@ -1,10 +1,10 @@
-# beat
+# beat-4
 🧲 4 Channel Solenoid Controller
 
-![board](beat-board.png?raw=true)
+![board](beat-4-board.png?raw=true)
 
 ## Schematic
-[PDF](beat.pdf)
+[PDF](beat-4.pdf)
 
 ## Bill Of Materials
-[Interactive BOM](https://html-preview.github.io/?url=https://github.com/versioduo/beat/main/hardware-beat-bom.html)
+[Interactive BOM](https://versioduo.com/view?url=https://raw.githubusercontent.com/versioduo/beat-4/refs/heads/main/hardware/beat-4-bom.html)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 beat")
-		(date "2026-08-30")
-		(rev "2026-08-29")
+		(date "2026-10-03")
+		(rev "2026-10-03")
 		(company "Versio Duo")
 		(comment 1 "Solenoid Controller")
 	)
@@ -1353,28 +1353,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5d9b1a49-579e-46b5-8941-85f4b04b637b")
 		)
@@ -1490,28 +1468,6 @@
 			(at 177.8 160.02 0)
 			(hide yes)
 			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 177.8 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 140.97 0)
-			(hide yes)
-			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -1641,28 +1597,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 177.8 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "faac2ceb-dfe1-4992-aaa4-024b8a89029b")
 		)
@@ -1778,28 +1712,6 @@
 			(at 177.8 109.22 0)
 			(hide yes)
 			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 177.8 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 90.17 0)
-			(hide yes)
-			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -1929,28 +1841,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 177.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0642be89-0352-40f4-908b-b8bea9dc9db8")
 		)
@@ -2066,28 +1956,6 @@
 			(at 177.8 113.03 0)
 			(hide yes)
 			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 177.8 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 93.98 0)
-			(hide yes)
-			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -2296,28 +2164,6 @@
 				)
 			)
 		)
-		(property "Sim.Pin" ""
-			(at 177.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "dc78f60a-6cc0-4b76-acbe-298121e946c3")
 		)
@@ -2433,28 +2279,6 @@
 			(at 177.8 148.59 0)
 			(hide yes)
 			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" ""
-			(at 177.8 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 177.8 129.54 0)
-			(hide yes)
-			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
