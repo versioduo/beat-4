@@ -73,7 +73,7 @@ namespace {
     Solenoids() :
       V2Solenoids({
         .current{.max{3}},
-        .resistance{.min{2}, .max{100}},
+        .resistance{.min{4}, .max{100}},
         .fade{.inSec{0.35}, .outSec{0.35}},
         .hold{.peakUsec{100 * 1000}, .fraction{0.5}},
       }) {}
@@ -105,12 +105,14 @@ namespace {
       return voltage / 1350.f * 3900.f;
     }
 
-    // One single port at a time is connected to 3.3V. The load and a 100Ω resistor
-    // form a voltage divider.
-    auto readResistanceVoltage() -> float override {
-      auto id{V2Base::Analog::ADC::getID(PIN_RESISTANCE_SENSE)};
-      auto channel{V2Base::Analog::ADC::getChannel(PIN_RESISTANCE_SENSE)};
-      return 3.3f * ADC.readChannel(channel);
+    auto readResistanceRatio() -> float override {
+      auto  channel{V2Base::Analog::ADC::getChannel(PIN_RESISTANCE_SENSE)};
+      float min{0.05};
+      auto  ratio{ADC.readChannel(channel) - min};
+      if (ratio < 0.f)
+        return 0;
+
+      return ratio * (1.f + min);
     }
 
     auto setLED(LEDMode state, uint8_t port = 0, float value = -1) -> void override {
